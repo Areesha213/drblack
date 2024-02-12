@@ -100,7 +100,7 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 400;
+    font-weight: 900;
 }
 
 h1, .ts-h1 {
@@ -1263,7 +1263,7 @@ blockquote h6 {
     animation-fill-mode: forwards;
     animation-duration: .4s;
     animation-timing-function: cubic-bezier(.6, .01, 0, 1);
-    background-color: #B3CDDF;
+    background-color: #005B96;
     bottom: 0;
     height: .125rem;
     margin: auto;
@@ -2592,7 +2592,17 @@ E. Template Specific Elements
     .ts-promo-number figure {
         font-size: 2.375rem;
     }
+    .col-md-2{
+        display: none;
+    }
+
 }
+@media (max-width: 768px) {
+    .col-md-2{
+        display: none;
+    }
+}
+
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
     html {
